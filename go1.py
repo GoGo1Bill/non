@@ -10,7 +10,7 @@ def post_message(token, channel, text):
     )
     print(response)
  
-myToken = "xoxb-2609205237909-2597943438071-cf7mkwLeQTOLvgf6hGOayqZC"
+myToken = "xoxb-2609205237909-2597943438071-4QQ4lYIiivGmlBisb24UwgMv"
 
 def get_start_time(KRWDOGE):
     df = pyupbit.get_ohlcv("KRW-DOGE", interval="day", count=1)
